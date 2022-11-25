@@ -268,6 +268,8 @@ mapview(theses_liensJSON_geocoded)
 # mapview(theses_liensJSON_geocoded)
 
 ######----------------------bac à merde------------------------------
+if (directeur de thèse.nom = "Van Hamme")
+  {StreetCred.doctorant == -1000}
 
 ENFANTS <- get_childs_from_results(url=url, theses_liens_from_json)
 PARENTS <- get_dirthese_from_results(url=url, theses_liens_from_json)
